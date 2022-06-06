@@ -4,7 +4,7 @@ const Product = () => {
   // Note: this id should come from api
   const product = { id: 1 };
   return (
-    <div data-cy={`product-${product.id}`}>
+    <div data-cy={`product-${product.id}`}>Product
       <h3 data-cy="product-name"></h3>
       <h6 data-cy="product-description"></h6>
       <button data-cy="product-add-item-to-cart-button"></button>
